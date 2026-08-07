@@ -1,0 +1,30 @@
+title: Publish kubectl drain state as Node conditions
+kep-number: 6251
+authors:
+  - "@rthallisey"
+owning-sig: sig-cli
+participating-sigs:
+  - sig-node
+status: implementable
+creation-date: 2026-08-07
+reviewers:
+  - soltysh
+approvers:
+  - soltysh
+
+see-also:
+  - "/keps/sig-node/5683-lifecycle-conditions"
+  - "https://github.com/kubernetes/enhancements/pull/5769"
+replaces: []
+
+stage: alpha
+
+latest-milestone: "v1.38"
+
+milestone:
+  alpha: "v1.38"
+
+feature-gates: []
+disable-supported: true
+
+metrics: []
